@@ -71,6 +71,8 @@ private String getNamaHariIndonesia(java.time.DayOfWeek dayOfWeek) {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("ApkPerhitunganHari"));
+
         jLabel1.setText("Pilih Bulan");
 
         jLabel2.setText("Masukkan Tahun");
@@ -218,7 +220,7 @@ private String getNamaHariIndonesia(java.time.DayOfWeek dayOfWeek) {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 17, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         pack();
